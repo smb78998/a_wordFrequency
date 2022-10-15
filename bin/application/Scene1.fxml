@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b9c0c6" height="406.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="607.0" />
+      <Button fx:id="myButton" layoutX="125.0" layoutY="200.0" mnemonicParsing="false" onAction="#submit" text="Start">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Label fx:id="myLabel" layoutX="95.0" layoutY="162.0" text="Click Start to Start" textFill="#544c4c">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="mySpace" editable="false" layoutX="350.0" layoutY="86.0" prefHeight="260.0" prefWidth="200.0" promptText="Word Frequency will appear here!" />
+      <Label layoutX="11.0" layoutY="29.0" prefHeight="57.0" prefWidth="331.0" text="Word Fequency Calculator">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
