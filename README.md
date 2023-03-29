@@ -5,7 +5,7 @@ Finds Word Frequency form .txt document
 <p>Find top 20 words in .txt document</p>
 <hr>
 
-<h2> Overview </h2>
+<h2> What does this program do? </h2>
 <p>The program works by reading off a .txt document. Additionally, the program ignores special characters and letter case to find the top 20 plain word.
 The programs GUI was created using javaFX.</p>
 <hr>
